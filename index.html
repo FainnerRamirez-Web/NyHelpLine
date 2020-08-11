@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NyHelpLine</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	
+	<style type="text/css">	
+
+		.zoom-a{
+			transition: transform .5s;
+		}
+
+		.zoom-a:hover{
+			transform: scale(1.2);
+		}
+
+		.navigation{
+			background:#53f7a0;
+			border-top-left-radius: 35px;
+		}
+
+		.nav-a{
+			color: #16a085;
+			font-size: 18px;
+			font-weight: bold;
+			text-decoration:none;
+		}
+
+		.nav-a:hover{
+			color:#666666;
+		}
+
+		.header-color{
+			background:#eeeeee;
+		}
+
+		.blanco{
+			color:#ffffff;
+		}
+
+		.text-weight-gris{
+			color:#666666;
+			font-weight: bold;
+		}
+
+		.btn1{
+			transition:transform .5s;
+			background:#5ADA95;
+			border-radius: 30px;
+			font-size: 20px;
+			font-weight: bold;
+			color:#ffffff;
+		}
+
+		.btn1:hover{
+			transform: scale(1.1);
+			background:#53f7a0;
+			color:#ffffff;
+		}
+		
+		.btn2{
+			background:#5ADA95;
+			color:#ffffff;
+		}
+
+		.btn2:hover{
+			background:#48C180;
+			color:#f4f4f4;
+		}
+
+		.btn3{
+			border-color:#47cc86;
+			background:#47cc86;
+			color:#ffffff;
+		}
+
+		.btn3:hover{
+			background:#ffffff;
+			color:#16a085; 
+		}
+
+		.ubicar-text-header{
+			position: absolute;
+			top:170px;
+			right: 40px;
+			width: 650px;
+		}
+		
+		.ubicar-text-animation{
+			position: absolute;
+			top: 530px;
+			left: 300px;
+		}
+		
+		.zoom{
+			transition:transform .5s;
+		}
+
+		.zoom:hover{
+			/*background: #b1f0cf;*/
+			transform: scale(0.9);
+			z-index: 10;
+		}
+	</style>
+
+	<div class="container-fluid">
+		
+		<!--section header-->
+		<header class="row header-color">
+			
+			<div class="row">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+					<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background:#16a085;">
+						<a class="navbar-brand" href="#" style="color:#ffffff;">NyHelpLine</a>
+						<button class="navbar-toggler" style="color:#ffffff;" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon" style="color:#ffffff;"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<div class="navbar-nav offset-xl-7 offset-lg-7">
+								<li class="nav-item">
+									<a class="nav-link mr-2 zoom-a" href="#" style="color: #ffffff;">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mr-2 zoom-a" href="#" style="color: #ffffff;">Example</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mr-2 zoom-a" href="#" style="color: #ffffff;">Example</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mr-2 zoom-a" href="#"  style="color: #ffffff;">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mr-2 zoom-a" href="#"  style="color: #ffffff;">Services</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mr-2 zoom-a" href="#"  style="color: #ffffff;">Blog</a>
+								</li>
+							</div>
+						</div>
+					</nav>	
+				</div>	
+			</div>
+
+			<div class="col-xl-12 col-lg-8 col-md-6 col-sm-6" >
+				<!--First grafic-->
+				<div style="height: 600px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M208.08,0.00 C113.15,76.47 305.01,86.34 195.53,151.47 L0.00,150.00 L0.00,0.00 Z" style="stroke: none; fill:#53f7a0;"></path></svg>
+				</div>
+
+				<div class="col-xl-12 col-lg-12 col-md-6 col-sm-4">
+					<p class="animation ubicar-text-animation2 d-none d-sm-none d-md-none d-lg-none d-xl-block" 
+					style="font-size: 70px;">&nbsp;NyHelpLine&nbsp;</p>
+				</div>
+
+				<div class="content ubicar-text-animation d-none d-sm-none d-md-none d-lg-none d-xl-block">
+					<div class="content__container">
+						<p class="content__container__text">Do you need</p>
+						<ul class="content__container__list">
+							<li class="content__container__list__item">urgent Help</li>
+							<li class="content__container__list__item">Emotional Support</li>
+							<li class="content__container__list__item">a friendly hand</li>
+							<li class="content__container__list__item">accompaniment</li>
+						</ul>
+					</div>
+					<p class="lead mt-4" style="color:#16a085; font-size: 27px; text-align: center;">We are here for you !</p>
+				</div>
+			</div>s
+
+			<div class="col-xl-6 col-lg-9 col-md-8 col-sm-4 ubicar-text-header text-center" style="color: #16a085">
+				<h1 class="display-3 font-weight-normal">Hello, supports 100% efficient</h1>
+				<p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae iste officia eligendi minima dignissimos maxime commodi magni iusto repudiandae sint!</p>
+
+				<a href="#!" class="btn btn1 mt-3 mb-5 pl-4 pr-4" role="button">Help me</a>
+				
+				<div class="text-right">
+					<a href="#!" class="btn btn2 fab fa-facebook" style="font-size: 28px; position: relative;" role="button" title="Facebook-Ny"></a>
+					<a href="#!" class="btn btn2 fab fa-instagram" style="font-size: 28px;" role="button" title="Instagram-Ny"></a>
+					<a href="#!" class="btn btn2 fab fa-twitter" style="font-size: 28px;" role="button" title="Twitter-Ny"></a>
+					<a href="#!" class="btn btn2 fab fa-whatsapp" style="font-size: 28px;" role="button" title="Whatsapp-Ny"></a>
+				</div>
+			</div>
+		</header><!--Close section header-->
+		
+		<div class="mt-5"></div>
+
+		<!--sección servicios-->
+		<section class="row text-center m-auto">
+
+			<h4 class="display-4 mb-5 col-sm-12" style="color:#666666; font-weight: normal;">NyHelpLine you find</h4>
+			
+			<div class="card col-xl-3 col-lg-3 col-md-6 col-sm-12 zoom">
+				<img src="assets/img/img-1.jpg" class="card-img-top img-fluid" style="height: 11rem;">
+				<div class="card-body">
+					<h5 class="card-title text-left display-5" style="color:#16a085;">Title</h5>
+					<h6 class="card-subtitle text-left display-6" style="color:#16a085;">Subtitle</h6>
+					<p class="card-text text-justify lead" style="height:100px;">Texto de prueba en html y css para proyecto de NyHelpLine</p>
+					<a href="#!" class="btn btn3 btn-info" role="button">See more</a>
+				</div>	
+			</div>
+
+			<div class="card col-xl-3 col-lg-3 col-md-6 col-sm-12 zoom">
+				<img src="assets/img/img-2.jpg" class="card-img-top img-fluid" style="height: 11rem;">
+				<div class="card-body">
+					<h5 class="card-title text-left display-5" style="color:#16a085;">Title</h5>
+					<h6 class="card-subtitle text-left display-6" style="color:#16a085;">Subtitle</h6>
+					<p class="card-text text-justify lead" style="height:100px;">Texto de prueba en html y css para proyecto de NyHelpLine</p>
+					<a href="#!" class="btn btn3 btn-info" role="button">See more</a>
+				</div>	
+			</div>
+
+			<div class="card col-xl-3 col-lg-3 col-md-6 col-sm-12 zoom" style="position: relative;">
+				<img src="assets/img/img-3.jpg" class="card-img-top img-fluid" style="height: 11rem;">
+				<div class="card-body">
+					<h5 class="card-title text-left display-5" style="color:#16a085;">Title</h5>
+					<h6 class="card-subtitle text-left display-6" style="color:#16a085;">Subtitle</h6>
+					<p class="card-text text-justify lead" style="height:100px;">Texto de prueba en html y css para proyecto de NyHelpLine</p>
+					<a href="#!" class="btn btn3 btn-info" role="button">See more</a>
+				</div>	
+			</div>
+
+			<div class="card col-xl-3 col-lg-3 col-md-6 col-sm-12  zoom">
+				<img src="assets/img/img-4.jpg" class="card-img-top img-fluid" style="height: 12rem;">
+				<div class="card-body">
+					<h5 class="card-title text-left display-5" style="color:#16a085;">Title</h5>
+					<h6 class="card-subtitle text-left display-6" style="color:#16a085;">Subtitle</h6>
+					<p class="card-text text-justify lead" style="height:100px;">Texto de prueba en html y css para proyecto de NyHelpLine</p>
+					<a href="#!" class="btn btn3 btn-info" role="button">See more</a>
+				</div>	
+			</div>
+		</section><!--section services-->
+		
+		<!--Olas
+		
+		<div class="row" style="width:83rem; margin:auto; position: absolute; top:640px; right: 0px;">
+			<div class="col-sm-12 mt-2">	
+				<div style="height: 750px;overflow: hidden;">
+					<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+						<path d="M500.84,0.50 C347.90,-3.45 313.48,108.05 202.98,150.00 L500.00,150.00 L500.27,3.47 Z" style="stroke: none; fill: #53f7a0;">
+						</path>
+					</svg>
+				</div>
+			</div>
+		</div>
+		-->
+	
+		<div style="height: 400px;"></div>
+
+	</div><!--cierre container-fluid-->
+
+
+
+
+
+
+
+
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+</body>
+</html>
